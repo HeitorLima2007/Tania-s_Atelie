@@ -1,0 +1,103 @@
+*{
+	
+	margin: 0;
+	padding: 0;
+	/*background-image:;*/
+}
+
+/*------body------*/
+body{
+	
+	background: linear-gradient(#D375CB, #4A1B56);
+	
+}
+/*------------header------------*/
+
+header{
+	
+	border-bottom: 3px solid black;
+	border-radius: 30px;
+	
+}
+
+/*header:hover{
+	
+	background: #C8A2C8;
+	
+}*/
+header nav{
+	
+	padding: 10px;
+	
+}
+
+header nav ul{
+	
+	display: flex;
+	justify-content:space-between;
+	
+}
+header nav ul li{
+	
+	padding: 5px;
+	list-style-type: none;
+	
+}
+header nav ul li a{
+	
+	text-decoration: none;
+	
+}
+
+header nav ul li a:hover{
+	
+	color: #FFC1F8;
+	
+}
+header nav ul li img{
+	
+	width: 5%;
+	border-radius: 30%;
+	border: 2px solid white;
+	
+}
+
+
+/*------------section------------*/
+
+section #esquerda{
+
+	width: 45%;
+
+}
+section #esquerda img{
+	width: 80%;
+	
+}
+
+section #direita p{
+	
+	width: 50%;
+	color: white;
+	font-size: 80px;
+	
+}
+#direita{
+	
+	position: relative;
+	left: 600px;
+	bottom: 400px;
+}
+
+section #produtos{
+	
+	/*display: flex;*/
+	position: absolute;
+	top: 300px;
+}
+
+.roupas p{
+	
+	color: white;
+	font-size: 24px;
+}
