@@ -1,0 +1,153 @@
+*{
+	
+	margin: 0;
+	padding: 0;
+	/*background-image:;*/
+}
+
+/*------body------*/
+body{
+	
+	background: linear-gradient(#D375CB, #4A1B56);
+	
+}
+/*------------header------------*/
+
+header{
+	
+	border-bottom: 3px solid black;
+	border-radius: 30px;
+	
+}
+
+header:hover{
+	
+	background: #C8A2C8;
+	
+}
+header nav{
+	
+	padding: 10px;
+	
+}
+
+header nav ul{
+	
+	display: flex;
+	justify-content:space-between;
+	
+}
+header nav ul li{
+	
+	padding: 5px;
+	list-style-type: none;
+	
+}
+header nav ul li a{
+	
+	text-decoration: none;
+	font-family: lucida calligraphy;
+	color: white;
+}
+
+/*header nav ul li #cadastrar a{
+	 display:flex;
+	 text-decoration: none;
+	 font-size: 22px;
+	 font-family: lucida calligraphy;
+	 color: white;
+	 padding-top: 1000px;
+}*/
+
+header nav ul li a:hover{
+	
+	color: #FFC1F8;
+	
+}
+header nav ul li img{
+	
+	width: 75px;
+	border-radius: 50%;
+	border: #D375CB;
+	
+}
+
+
+/*------------section------------*/
+
+section #esquerda{
+
+	width: 45%;
+
+}
+section #esquerda img{
+	width: 80%;
+	
+}
+
+section #direita p{
+	
+	width: 50%;
+	color: white;
+	font-size: 80px;
+	
+}
+#direita{
+	
+	position: absolute;
+	top: 150px;
+	left: 700px;
+	bottom: 400px;
+}
+
+#produtos{
+	
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	/*position: absolute;*/
+	/*top: 300px;*/
+	justify-content: center;
+}
+
+.roupas{
+	
+	border: 3px solid white;
+	border-radius: 30px;
+	margin: 5px;
+	width: 30%;
+	width: 300px;
+	height: 600px;
+	position: relative;
+	
+}
+
+.roupas p{
+	
+	color: white;
+	font-size: 20px;
+	padding: 10px;
+}
+.roupas img{
+	
+	border-radius: 30px 30px 0 0 ;
+	width: 300px;
+	height: 300px;
+	
+}
+
+.roupas a{
+	
+	text-decoration: none;
+	background-color: white;
+	color: #7C18AD;
+	padding: 12px;
+	border-radius: 45px;
+	display: flex;
+	/*margin: 30px 50px 0 50px;*/
+	justify-content: center;
+	position: absolute;
+	top: 500px;
+	left: 100px;
+	right: 100px;
+}
