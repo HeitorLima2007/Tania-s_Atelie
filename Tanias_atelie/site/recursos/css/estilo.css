@@ -20,11 +20,11 @@ header{
 	
 }
 
-/*header:hover{
+header:hover{
 	
 	background: #C8A2C8;
 	
-}*/
+}
 header nav{
 	
 	padding: 10px;
@@ -46,8 +46,18 @@ header nav ul li{
 header nav ul li a{
 	
 	text-decoration: none;
-	
+	font-family: lucida calligraphy;
+	color: white;
 }
+
+/*header nav ul li #cadastrar a{
+	 display:flex;
+	 text-decoration: none;
+	 font-size: 22px;
+	 font-family: lucida calligraphy;
+	 color: white;
+	 padding-top: 1000px;
+}*/
 
 header nav ul li a:hover{
 	
@@ -56,9 +66,9 @@ header nav ul li a:hover{
 }
 header nav ul li img{
 	
-	width: 5%;
-	border-radius: 30%;
-	border: 2px solid white;
+	width: 75px;
+	border-radius: 50%;
+	border: #D375CB;
 	
 }
 
@@ -84,20 +94,60 @@ section #direita p{
 }
 #direita{
 	
-	position: relative;
-	left: 600px;
+	position: absolute;
+	top: 150px;
+	left: 700px;
 	bottom: 400px;
 }
 
-section #produtos{
+#produtos{
 	
-	/*display: flex;*/
-	position: absolute;
-	top: 300px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	/*position: absolute;*/
+	/*top: 300px;*/
+	justify-content: center;
+}
+
+.roupas{
+	
+	border: 3px solid white;
+	border-radius: 30px;
+	margin: 5px;
+	width: 30%;
+	width: 300px;
+	height: 600px;
+	position: relative;
+	
 }
 
 .roupas p{
 	
 	color: white;
-	font-size: 24px;
+	font-size: 20px;
+	padding: 10px;
+}
+.roupas img{
+	
+	border-radius: 30px 30px 0 0 ;
+	width: 300px;
+	height: 300px;
+	
+}
+
+.roupas a{
+	
+	text-decoration: none;
+	background-color: white;
+	color: #7C18AD;
+	padding: 12px;
+	border-radius: 45px;
+	display: flex;
+	/*margin: 30px 50px 0 50px;*/
+	justify-content: center;
+	position: absolute;
+	top: 500px;
+	left: 100px;
+	right: 100px;
 }
